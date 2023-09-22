@@ -1,0 +1,8 @@
+on: push
+name: deploy
+jobs:
+  deploy: 
+    name: deploy del curso
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo: "ejecutando ejercicio"
